@@ -18,8 +18,8 @@ public class PrintToN {
 
     public static boolean Increment(char[] res)
     {
-        boolean overFlow = false;
-        int nTakeOver = 0;
+        boolean overFlow = false; //溢出标志位
+        int nTakeOver = 0;  //进位标志位
 
         for(int i=res.length-1; i>=0; i--)
         {
